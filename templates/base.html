@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <!-- <title>Teams Management Home</title> -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=HandelGothic BT" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+  {% if title %}
+        <title>Teams Management - {{ title }}</title>
+    {% else %}
+        <title>Teams Management</title>
+    {% endif %}
+</head>
+<body style="background-image: url('/static/img/webtheme/web-theme-01.png'); background-size: cover;">
+    {% block content %}{% endblock %}
+</body>
+</html>
