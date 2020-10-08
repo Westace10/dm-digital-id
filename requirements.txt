@@ -42,4 +42,3 @@ urllib3==1.25.10
 Werkzeug==0.16.1
 wkhtmltopdf==0.2
 wsgi-request-logger==0.4.6
-zappa==0.51.0
